@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <img src="../../../assets/logo.png" id="logoAP">
+        </div>
+        <div class="redes">
+            <a href="https://dirección red social facebook"><img src="../../../assets/icons/facebook.png" id="facebook"></a>
+            <a href="https://dirección red social instagram"><img src="../../../assets/icons/instagram.png" id="instagram"></a>
+            <a href="https://dirección red social twitter"><img src="../../../assets/icons/twitter.png" id="twitter"></a>
+            <a href="https://dirección red social linkedin"><img src="../../../assets/icons/linkedin.png" id="linkedin"></a>
+            <a href="https://dirección red social bitbucket"><img src="../../../assets/icons/bitbucket.png" id="bitbucket"></a>
+            <a href="https://dirección red social github"><img src="../../../assets/icons/github.png" id="github"></a>
+            <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INICIAR SESSION</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESSION</button>
+        </div>
+
+    </div>
+
+</div>
+
